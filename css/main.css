@@ -43,10 +43,10 @@ div.vendors {
 div.vendor {
     float: left;
     margin: 10px;
+    text-align: center
 }
 div.vendor img {
     width: 128px;
-    height: 64px;
 }
 div.footer {
     margin-top: 10px;
