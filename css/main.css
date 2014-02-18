@@ -1,0 +1,62 @@
+html {
+    background: #e0e0e0;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    font-size: 16px;
+}
+body {
+    width: 780px;
+    margin: 0 auto;
+}
+div.main {
+    margin: 20px 0 0 0;
+    padding: 10px;
+    min-height: 600px;
+    border-radius:25px;
+    background: #ffffff;
+}
+div.header {
+    margin: 0;
+    padding: 10px;
+}
+div.header > h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+table.main {
+    width: 100%;
+    table-layout: fixed;
+}
+table.main td {
+    padding: 10px 20px;
+}
+table.main td.left p {
+    text-align: center;
+}
+table.main td.right ol {
+    margin-top: 20px;
+}
+div.explanation,
+div.vendors {
+    margin: 0 20px;
+}
+div.vendor {
+    float: left;
+    margin: 10px;
+}
+div.vendor img {
+    width: 128px;
+    height: 64px;
+}
+div.footer {
+    margin-top: 10px;
+}
+div.footer > p {
+    font-size: x-small;
+    margin: 0;
+    padding: 0;
+}
+em {
+    font-weight: bold;
+    font-style: normal;
+}
