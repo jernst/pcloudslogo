@@ -42,12 +42,29 @@ div.vendors {
 }
 div.vendor {
     float: left;
+    position: relative;
+    height: 160px;
     margin: 10px;
-    text-align: center
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
 }
-div.vendor img {
+div.vendor div.img {
     width: 128px;
+    height: 138px;
+    display: table-cell;
+    vertical-align: middle;
 }
+div.vendor div.name {
+    position: absolute;
+    width: 130px;
+    bottom: 10px;
+    display: block;
+    font-size: small;
+    text-align: center;
+}
+
 div.footer {
     margin-top: 10px;
 }
@@ -59,4 +76,7 @@ div.footer > p {
 em {
     font-weight: bold;
     font-style: normal;
+}
+a {
+    color: inherit;
 }
