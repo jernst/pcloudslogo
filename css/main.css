@@ -64,7 +64,9 @@ div.vendor div.name {
     font-size: small;
     text-align: center;
 }
-
+span.howtogetlisted {
+    font-size: x-small;
+}
 div.footer {
     margin-top: 10px;
 }
